@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>OpenOA Deployment</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <div class="card">
+      <h1>🌬 OpenOA Deployment</h1>
+      <p class="subtitle">
+        Frontend interface connected to deployed OpenOA backend
+      </p>
+
+      <div class="button-group">
+        <button onclick="checkHealth()">Check Health</button>
+        <button onclick="getVersion()">Get Version</button>
+        <button onclick="getModules()">List Modules</button>
+      </div>
+
+      <div class="output-container">
+        <pre id="output">Click a button to fetch data...</pre>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
