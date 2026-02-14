@@ -1,2 +1,3 @@
 fastapi
 uvicorn[standard]
+git+https://github.com/NREL/OpenOA.git
